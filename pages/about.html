@@ -3,6 +3,7 @@
     <head>
         <title>Willem Swanepoel Portfolio</title>
         <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <header>
@@ -10,13 +11,19 @@
             <h6 class="title-b">by Willem Swanepoel</h6>
         </header>
         <nav>
-            <ul class="topnav">
-                <li><a href="./contact_me.html">contact me</a></li>
-                <li><a href="./past_work.html">past work</a></li>
-                <li><a href="./about.html">about</a></li>
-                <li><a href="../index.html">home</a></li>
-            </ul>
-        </nav>
+            <div class="topnav">
+              <a class="active">Work History</a>
+              <div id="myLinks">
+                <a href="./contact_me.html">contact me</a>
+                <a href="./past_work.html">past work</a>
+                <a href="./about.html">about</a>
+                <a href="../index.html">home</a>
+              </div>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </div>
+          </nav>
 
         <footer>
         </footer>
