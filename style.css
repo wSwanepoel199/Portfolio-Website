@@ -1,5 +1,6 @@
 body{
   display: inline-flexbox;
+  margin: 0 0 0 0;
 }
 
 header {
@@ -7,122 +8,56 @@ header {
   text-align: center;
   padding: 1%;
   font-size: 200%;
+
+}
+@media (min-width: 768px){
+  /* .nav-link{
+    font-size: 20px;
+  } */
 }
 
-
-@media screen and (max-width: 599px) {
-  .topnav {
-    overflow: hidden;
-    background-color: #333;
-    list-style-type: none;
-    margin: 0 0 0 0;
-    position: relative;
-  }
-  /* Navbar links */
-  .topnav #myLinks {
-    display: none;
-  }
-  /* Style the hamburger menu */
-  .topnav a.icon {
-    background: #333;
-    display: block;
-    right: 0;
-    top: 0;
-    float: right;
-    position: absolute;
-  }
-  .topnav a.icon:hover {
-    background-color: #ddd;
-    color: black;
-  }
-
-  .topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 125%;
-  }
-  .topnav div a {
-    float: right;
-    display: none;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 125%;
-    position: absolute;
-  }
-
-
-  /* Links - change color on hover */
-  .topnav div a:hover {
-    background-color: #ddd;
-    color: black;
-  }
+.img1{
+  width:200px;
+  height: 200px;
 }
 
-@media screen and (min-width: 600px) {
-  /* The navbar container */
-  .topnav {
-    overflow: hidden;
-    background-color: #333;
-    list-style-type: none;
-    margin: 0 0 0 0;
-  }
-
-  /* Style the hamburger menu */
-  .topnav a.icon {
-    background: black;
-    display: none;
-    right: 0;
-    top: 0;
-  }
-
-  .topnav a{
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 125%;
-  }
-
-  /* Navbar links */
-  .topnav div a {
-    float: right;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 125%;
-  }
-
-  /* Links - change color on hover */
-  .topnav div a:hover {
-    background-color: #ddd;
-    color: black;
-  }
+.title h1, .title h6{
+  margin: 0 0 0 0;
+  position: relative;  
+}
+.title h1{
+  padding-top: 50px;
+}
+.title h6{
+  padding-bottom: 50px;
 }
 
-.title-a{
-  margin-bottom: 0px;
+.contant-info{
+  margin: 0 0 0 0;
+  display: block;
+  flex-flow: row wrap;
 }
-.title-b{
-  padding-right:1.5%;
-  margin-top: 0px;
+.contant-info h4{
+  margin: 0 0 0 0;
+  position: relative;
+}
+.contant-info h5{
+  margin: 0 0 0 0;
+  position: relative;
 }
 
-.contact-a{
-  margin-bottom: 5px;
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
 }
-
-.contact-b{
-  margin-top: 0px;
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
 }
 
 .experience{
